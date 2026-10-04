@@ -1,0 +1,458 @@
+{
+  "lang": "hu",
+  "meta": {
+    "title": "Blaha Residence – Modern apartman Debrecen belvárosában",
+    "description": "Frissen felújított, klimatizált apartman Debrecen belvárosában erkéllyel, gyors Wi-Fi-vel és jól felszerelt konyhával, akár 4+1 vendég részére. Kérj ajánlatot!",
+    "ogLocale": "hu_HU",
+    "jsonLdDescription": "Frissen felújított, modern apartman Debrecen belvárosában, külön hálószobával és nappalival, akár 4+1 vendég részére."
+  },
+  "ui": {
+    "skip": "Ugrás a tartalomra",
+    "menuOpen": "Menü megnyitása",
+    "menuClose": "Menü bezárása",
+    "mainNav": "Főmenü",
+    "langLabel": "Nyelv választása",
+    "langHu": "Magyar",
+    "langEn": "English",
+    "logoAlt": "Blaha Residence logó",
+    "footerNav": "Gyorslinkek",
+    "backToTop": "Vissza a tetejére",
+    "close": "Bezárás",
+    "prev": "Előző kép",
+    "next": "Következő kép"
+  },
+  "nav": {
+    "home": "Kezdőlap",
+    "about": "Az apartmanról",
+    "gallery": "Galéria",
+    "amenities": "Felszereltség",
+    "rules": "Házirend",
+    "location": "Elhelyezkedés",
+    "contact": "Kapcsolat",
+    "cta": "Foglalás / Érdeklődés"
+  },
+  "hero": {
+    "eyebrow": "Debrecen belvárosa",
+    "title": "Blaha Residence",
+    "tagline": "Modern otthon Debrecen szívében",
+    "text": "Frissen felújított, klimatizált apartman erkéllyel, akár 4+1 vendég részére – ahol a város felfedezése után jó érzés hazatérni.",
+    "cta1": "Megnézem az apartmant",
+    "cta2": "Kapcsolat / Foglalás",
+    "chips": [
+      "Akár 4+1 vendég",
+      "Klíma",
+      "Gyors Wi-Fi",
+      "Erkély"
+    ],
+    "imgAlt": "Világos, modern nappali szürke ülősarokkal, falra szerelt TV-vel, mély zöld függönnyel és arany részletekkel"
+  },
+  "about": {
+    "eyebrow": "Az apartmanról",
+    "title": "Kényelmes apartman Debrecen belvárosában",
+    "lead": "Frissen felújított, modern és otthonos apartmanunk kiváló választás pároknak, családoknak, baráti társaságoknak és üzleti útra érkezőknek is.",
+    "p1": "Úgy alakítottuk ki, hogy a város felfedezése után jó érzés legyen visszatérni egy kényelmes, nyugodt helyre. Fontos volt számunkra, hogy ne csak egy egyszerű szállás legyen, hanem egy olyan apartman, ahol valóban otthon érezheted magad.",
+    "p2": "Külön hálószobával és nappalival rendelkezik, a jól felszerelt konyhának köszönhetően pedig akkor is kényelmesen berendezkedhetsz, ha több napra érkezel.",
+    "badge": "Frissen felújítva",
+    "imgAlt": "Egy család vacsorához teríti az asztalt a világos, arany és zöld részletekkel kialakított konyhában",
+    "stats": [
+      {
+        "n": "4+1",
+        "l": "vendég részére"
+      },
+      {
+        "n": "1",
+        "l": "külön hálószoba"
+      },
+      {
+        "n": "1",
+        "l": "nappali"
+      },
+      {
+        "n": "15:00",
+        "l": "érkezéstől"
+      }
+    ],
+    "idealTitle": "Ideális választás",
+    "ideal": [
+      "városnézéshez",
+      "hétvégi kikapcsolódáshoz",
+      "családi pihenéshez",
+      "páros kiruccanáshoz",
+      "üzleti utazáshoz",
+      "néhány napos vagy hosszabb tartózkodáshoz"
+    ]
+  },
+  "why": {
+    "eyebrow": "Miért mi?",
+    "title": "Miért érdemes ezt az apartmant választani?",
+    "intro": "Kényelem, központi fekvés és minden, ami egy zavartalan debreceni tartózkodáshoz kell.",
+    "items": [
+      {
+        "icon": "pin",
+        "title": "Belvárosi fekvés",
+        "text": "Számos étterem, kávézó, üzlet és népszerű városi látnivaló érhető el néhány perc alatt gyalogosan."
+      },
+      {
+        "icon": "sparkles",
+        "title": "Frissen felújított, modern",
+        "text": "Világos, letisztult terek arany és zöld részletekkel – igazán otthonos hangulatban."
+      },
+      {
+        "icon": "utensils",
+        "title": "Jól felszerelt konyha",
+        "text": "Mosógéppel és mosogatógéppel együtt: több napra is kényelmesen berendezkedhetsz."
+      },
+      {
+        "icon": "sun",
+        "title": "Hangulatos erkély",
+        "text": "Egy reggeli kávé az erkélyen, mielőtt belevágsz a városnézésbe."
+      },
+      {
+        "icon": "snow",
+        "title": "Klíma és gyors Wi-Fi",
+        "text": "A klíma a melegebb napokon is kellemes hőmérsékletet biztosít, a gyors Wi-Fi pedig összeköt a világgal."
+      },
+      {
+        "icon": "key",
+        "title": "Rugalmas, önálló bejutás",
+        "text": "Kulcsboxos, érintkezésmentes érkezés is lehetséges – igény esetén személyesen is szívesen fogadunk."
+      }
+    ]
+  },
+  "quote": {
+    "text": "Egy reggeli kávé az erkélyen, egy kellemes séta Debrecen belvárosában, egy vacsora a közeli étteremben – majd vissza egy nyugodt, kényelmes apartmanba.",
+    "imgAlt": "Napfényes nappali a Blaha Residence apartmanban"
+  },
+  "gallery": {
+    "eyebrow": "Galéria",
+    "title": "Nézz körül az apartmanban",
+    "intro": "Kattints egy képre a nagyobb méretű megtekintéshez.",
+    "open": "Kép megnyitása:",
+    "items": [
+      {
+        "cap": "Nappali",
+        "alt": "Világos nappali szürke ülősarokkal, falra szerelt TV-vel és mély zöld függönnyel"
+      },
+      {
+        "cap": "Konyha és étkező",
+        "alt": "Fehér, modern konyha és ovális étkezőasztal arany részletekkel"
+      },
+      {
+        "cap": "Nappali – TV fal",
+        "alt": "Fa lécekkel borított TV fal, szürke kanapé és zöld pléd a nappaliban"
+      },
+      {
+        "cap": "Hálószoba",
+        "alt": "Hálószoba ággyal, íróasztallal és dekoratív pampafűvel"
+      },
+      {
+        "cap": "Fürdőszoba",
+        "alt": "Fürdőszoba arany zuhanykabinnal, ovális mosdóval és kerek tükörrel"
+      },
+      {
+        "cap": "Hálószoba – íróasztallal",
+        "alt": "Hálószoba részlet íróasztallal, székkel és ágyakkal"
+      },
+      {
+        "cap": "Nappali",
+        "alt": "Nappali ülősarokkal, dohányzóasztallal és falra szerelt TV-vel"
+      },
+      {
+        "cap": "Fürdőszoba",
+        "alt": "Fürdőszoba mosógéppel, arany részletes zuhanyzóval és fa pultos mosdóval"
+      },
+      {
+        "cap": "Bejárat és konyha",
+        "alt": "Bejárati ajtó az előtérben, mellette a konyha bejárata"
+      },
+      {
+        "cap": "Hálószoba",
+        "alt": "Hófehér ágynemű a hálószobában, zöld dekorpárnával"
+      },
+      {
+        "cap": "Hálószoba",
+        "alt": "Hálószoba íróasztallal és pihenősarokkal"
+      },
+      {
+        "cap": "Külön WC",
+        "alt": "Világos, burkolt külön WC helyiség"
+      },
+      {
+        "cap": "Előtér",
+        "alt": "Világos előtér fa léces fallal és tükörrel"
+      },
+      {
+        "cap": "Nappali",
+        "alt": "Napfényes nappali ülősarokkal és TV-vel"
+      },
+      {
+        "cap": "Hálószoba",
+        "alt": "Hálószoba nyitott tolóajtóval, mögötte a nappali"
+      }
+    ]
+  },
+  "amenities": {
+    "eyebrow": "Felszereltség",
+    "title": "Felszereltség és szolgáltatások",
+    "intro": "Csak azt soroljuk fel, ami valóban rendelkezésedre áll.",
+    "items": [
+      {
+        "icon": "snow",
+        "label": "Klimatizált apartman"
+      },
+      {
+        "icon": "wifi",
+        "label": "Gyors Wi-Fi"
+      },
+      {
+        "icon": "utensils",
+        "label": "Jól felszerelt konyha"
+      },
+      {
+        "icon": "washer",
+        "label": "Mosógép"
+      },
+      {
+        "icon": "dishwasher",
+        "label": "Mosogatógép"
+      },
+      {
+        "icon": "shower",
+        "label": "Zuhanyzós fürdőszoba"
+      },
+      {
+        "icon": "toilet",
+        "label": "Külön WC"
+      },
+      {
+        "icon": "sun",
+        "label": "Erkély"
+      },
+      {
+        "icon": "key",
+        "label": "Rugalmas, önálló bejutás"
+      },
+      {
+        "icon": "tv",
+        "label": "TV – 44 csatornás előfizetéssel"
+      },
+      {
+        "icon": "blinds",
+        "label": "Elektromos redőnyök távirányítóval"
+      },
+      {
+        "icon": "bed",
+        "label": "Ágynemű és törölköző"
+      }
+    ],
+    "onRequestTitle": "Kérésre",
+    "onRequest": [
+      {
+        "icon": "baby",
+        "label": "Babafelszerelés: etetőszék, WC-szűkítő, fellépő"
+      },
+      {
+        "icon": "umbrella",
+        "label": "Esernyő"
+      },
+      {
+        "icon": "sparkles",
+        "label": "Cipőápoló felszerelés"
+      },
+      {
+        "icon": "clock",
+        "label": "Korábbi bejutás vagy későbbi távozás (külön díjért, előzetes egyeztetéssel)"
+      },
+      {
+        "icon": "sparkles",
+        "label": "Extra napi takarítás (külön díjért)"
+      }
+    ]
+  },
+  "rules": {
+    "eyebrow": "Házirend",
+    "title": "Házirend",
+    "intro": "Hogy mindenki nyugodtan pihenhessen és elkerüljük a félreértéseket, kérjük, olvasd el figyelmesen. A foglalással és a díj kifizetésével a vendég elfogadja a házirendet.",
+    "facts": [
+      {
+        "icon": "login",
+        "label": "Érkezés",
+        "value": "15:00–22:00"
+      },
+      {
+        "icon": "logout",
+        "label": "Távozás",
+        "value": "10:00-ig"
+      },
+      {
+        "icon": "nosmoke",
+        "label": "Dohányzás",
+        "value": "Tilos"
+      },
+      {
+        "icon": "nopets",
+        "label": "Háziállat",
+        "value": "Nem megengedett"
+      }
+    ],
+    "items": [
+      {
+        "icon": "login",
+        "title": "Érkezés és távozás",
+        "html": "<p>Az apartman az érkezés napján 15:00-tól az elutazás napján 10:00-ig áll rendelkezésre. Érkezni 15:00 és 22:00 között lehet.</p><p>Külön díj ellenében, előzetes egyeztetéssel lehetőség van korábban beköltözni vagy tovább maradni.</p><p>Idő előtti elutazás esetén szállásdíjat nem térítünk vissza.</p>"
+      },
+      {
+        "icon": "file",
+        "title": "Regisztráció és fizetés",
+        "html": "<p>Érkezéskor vagy azt megelőzően (online vagy személyesen) a vendég átadja a személyes okmányait (útlevél vagy személyi igazolvány, lakcímkártya) az adatfelvételhez, és fizeti a helyszínen fizetendő díjat. Az apartmant csak a teljes részvételi díj kifizetése után lehet elfoglalni.</p><p>A vendégeket igény esetén személyesen fogadjuk, de lehetséges az érintkezésmentes érkezés is.</p>"
+      },
+      {
+        "icon": "key",
+        "title": "Kulcsok, kódok",
+        "html": "<p>Érkezéskor a vendégek megkapják a lépcsőházi ajtó kódját és a bejárati ajtó kulcsát, amely a lépcsőházban, az ajtó mellett lévő kulcsboxban található.</p><p>Távozáskor kérjük, a kulcsot tegyétek vissza a kulcsboxba, és az érkezéskor megadott kóddal zárjátok be. Elvesztés esetén kérjük, haladéktalanul jelezzétek – a kulcs árát, illetve a zárcserét a vendég téríti meg.</p>"
+      },
+      {
+        "icon": "nosmoke",
+        "title": "Dohányzás",
+        "html": "<p>A dohányzás szigorúan tilos az épületben és az apartmanban is – az erkélyen is.</p>"
+      },
+      {
+        "icon": "car",
+        "title": "Parkolás",
+        "html": "<p>Az apartmannak nincs saját parkolója. A ház előtt napközben (hétfő–péntek 8:00–18:00, szombat 8:00–14:00) a parkolás fizetős és legfeljebb 3 óra engedélyezett (piros zóna).</p><p>A közeli utcákban napijegy is vásárolható (utcától függően I. narancssárga vagy II. zöld zóna) – kérésre szívesen segítünk. <a href='https://netberlet.mininform.hu/debrecen_dvparking/napijegy/index?nj=1' target='_blank' rel='noopener noreferrer'>Napijegy vásárlása</a></p>"
+      },
+      {
+        "icon": "usersx",
+        "title": "Vendégek és látogatók",
+        "html": "<p>Csak azok tartózkodhatnak az apartmanban, akiknek az igazolványát bemutatták a szállásadónak, a foglaláskor megadott létszámban. Kérjük, foglaláskor minden vendéget tüntessetek fel, a gyermekeket is, életkortól függetlenül.</p><p>A szállásadó előzetes bejelentés nélkül ellenőrizheti, hogy a bejelentett létszámban tartózkodnak-e a vendégek. Látogatók fogadása tilos.</p>"
+      },
+      {
+        "icon": "quiet",
+        "title": "Nyugalom és csend",
+        "html": "<p>A szomszédokra való tekintettel kérjük, tartózkodjatok a zajos tevékenységtől, és a lépcsőházban csendesen közlekedjetek.</p><p>A társasház házirendje szerint hétfőtől szombatig 7:00–20:00 között, vasárnap pedig egész nap a zajos tevékenység csendháborításnak minősül. A társasház házirendjének megsértése jogi következményekkel járhat.</p>"
+      },
+      {
+        "icon": "nopets",
+        "title": "Háziállatok",
+        "html": "<p>Háziállatot hozni tilos. Kérjük, vegyétek komolyan a szabályt – allergiás vendégeink is vannak.</p>"
+      },
+      {
+        "icon": "sparkles",
+        "title": "Takarítás",
+        "html": "<p>Az érkezéskor fizetett tartózkodási díj tartalmazza a végső takarítást. Hosszabb tartózkodás esetén a 7. napon ismételt takarítás, ágynemű- és törölközőcsere történik.</p><p>Extra, napi takarítás további díj ellenében kérhető – az igényt kérjük előre jelezni.</p>"
+      },
+      {
+        "icon": "trash",
+        "title": "Hulladék",
+        "html": "<p>A konyhai mosogató alatt található a szemétgyűjtő edény. Kérjük, szelektíven gyűjtsétek a hulladékot: 1. vegyes hulladék, 2. papír, műanyag és fém doboz.</p><p>Távozáskor kérjük, a szemetet vigyétek le a lépcsőházi gyűjtőedényekbe (kék kuka – vegyes hulladék, sárga kuka – szelektív hulladék).</p>"
+      },
+      {
+        "icon": "home",
+        "title": "Rend, étkezés, károkozás",
+        "html": "<p>Kérjük, figyeljetek a rendre, óvjátok a berendezést, és ne vigyetek ki semmit az apartmanból. Étkezéshez a konyhát használjátok – a szobákban ne étkezzetek – és tartsátok tisztán.</p><p>A szálláson okozott kárt a károkozó vagy törvényes képviselője köteles megtéríteni.</p>"
+      },
+      {
+        "icon": "tv",
+        "title": "TV, internet és redőny",
+        "html": "<p>A TV-előfizetés 44 csatornát tartalmaz, az apartmanban Wi-Fi hozzáférés biztosított.</p><p>Az apartman elektromos redőnyökkel felszerelt, amelyeket a helyiségekben található távirányítóval lehet működtetni: a felfelé nyíl felhúzza, a lefelé nyíl leengedi.</p>"
+      },
+      {
+        "icon": "alert",
+        "title": "A házirend megsértése",
+        "html": "<p>A tulajdonosnak jogában áll lemondani a szállást, ha a vendég nem tartja be a házirendet. Ebben az esetben a fennmaradó foglalási díjat nem tudjuk visszafizetni.</p><p>A szállás igénybevételével a vendég elolvasta, megértette és elfogadta a házirendben foglaltakat.</p>"
+      }
+    ],
+    "footnote": "Egyéb kérdéssel, kéréssel vagy problémával kapcsolatban nyugodtan keress minket."
+  },
+  "location": {
+    "eyebrow": "Elhelyezkedés",
+    "title": "Mindenhez közel, Debrecen belvárosában",
+    "text": "Az apartman Debrecen belvárosában található, így számos étterem, kávézó, üzlet és népszerű városi látnivaló néhány perc alatt elérhető gyalogosan. Városnézéshez, hétvégi kiruccanáshoz vagy néhány napos tartózkodáshoz egyaránt kényelmes kiindulópont.",
+    "addressLabel": "Cím",
+    "points": [
+      {
+        "icon": "walk",
+        "title": "Gyalogosan mindent elérsz",
+        "text": "Éttermek, kávézók, üzletek és városi látnivalók néhány perc sétára."
+      },
+      {
+        "icon": "car",
+        "title": "Parkolás",
+        "text": "Saját parkoló nincs; a környéken fizetős parkolás és napijegy vásárlása lehetséges (részletek a házirendben)."
+      },
+      {
+        "icon": "key",
+        "title": "Önálló érkezés",
+        "text": "Kulcsboxos, érintkezésmentes bejutás, igény esetén személyes fogadás."
+      }
+    ],
+    "mapTitle": "Az apartman helye a térképen",
+    "route": "Útvonaltervezés"
+  },
+  "cta": {
+    "title": "Pihenj nálunk Debrecen szívében – vedd fel velünk a kapcsolatot!",
+    "text": "Szívesen megadjuk az aktuális szabad időpontokat és az árakkal kapcsolatos információkat, és segítünk a foglalásban is.",
+    "primary": "Foglalás",
+    "secondary": "Hívj minket"
+  },
+  "contact": {
+    "eyebrow": "Kapcsolat",
+    "title": "Érdeklődj vagy foglalj apartmanunkban",
+    "intro": "Írj nekünk bátran! Megadjuk az aktuális szabad időpontokat, és segítünk a foglalásban.",
+    "phoneLabel": "Telefon",
+    "phoneNote": "0–24 hívható ügyelet",
+    "addressLabel": "Cím",
+    "ntakLabel": "NTAK regisztrációs szám",
+    "formTitle": "Foglalás",
+    "required": "kötelező mező",
+    "fields": {
+      "name": "Név",
+      "email": "E-mail",
+      "phone": "Telefonszám",
+      "arrival": "Érkezés dátuma",
+      "departure": "Távozás dátuma",
+      "guests": "Vendégek száma",
+      "message": "Üzenet"
+    },
+    "placeholders": {
+      "name": "Teljes neved",
+      "email": "pelda@email.hu",
+      "phone": "+36 …",
+      "message": "Írd le kérdésed vagy különleges kérésed"
+    },
+    "guestsHint": "Legfeljebb 4+1 fő",
+    "guestOptions": [
+      "1 vendég",
+      "2 vendég",
+      "3 vendég",
+      "4 vendég",
+      "5 vendég (4+1)"
+    ],
+    "guestsPlaceholder": "Válassz…",
+    "consent": "Hozzájárulok, hogy a megadott adataimat az ajánlatkérés megválaszolása céljából kezeljétek.",
+    "consentPrivacy": "Adatkezelési tájékoztató",
+    "submit": "Foglalás küldése",
+    "sending": "Küldés…",
+    "errors": {
+      "required": "Kérjük, töltsd ki ezt a mezőt.",
+      "email": "Kérjük, adj meg érvényes e-mail címet.",
+      "phone": "Kérjük, érvényes telefonszámot adj meg.",
+      "arrivalPast": "Az érkezés dátuma nem lehet a múltban.",
+      "departure": "A távozás dátuma az érkezés után kell legyen.",
+      "guests": "Kérjük, válaszd ki a vendégek számát.",
+      "consent": "A küldéshez el kell fogadnod az adatkezelési hozzájárulást.",
+      "summary": "Kérjük, javítsd a megjelölt mezőket."
+    },
+    "success": "Köszönjük! Foglalási kérésedet megkaptuk, hamarosan jelentkezünk.",
+    "failure": "Az üzenetet most nem sikerült elküldeni. Kérjük, próbáld újra, vagy hívj minket telefonon:",
+    "notConfigured": "Az online ajánlatkérő űrlap jelenleg nem érhető el, ezért az üzeneted nem lett elküldve. Kérjük, hívj minket telefonon:"
+  },
+  "footer": {
+    "tagline": "Modern apartman Debrecen belvárosában.",
+    "quick": "Gyorslinkek",
+    "contact": "Elérhetőség",
+    "social": "Kövess minket",
+    "privacy": "Adatkezelési tájékoztató",
+    "rights": "Minden jog fenntartva."
+  }
+}

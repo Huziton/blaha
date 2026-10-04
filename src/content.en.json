@@ -1,0 +1,458 @@
+{
+  "lang": "en",
+  "meta": {
+    "title": "Blaha Residence – Modern apartment in downtown Debrecen",
+    "description": "Newly renovated, air-conditioned apartment in downtown Debrecen with a balcony, fast Wi-Fi and a fully equipped kitchen, for up to 4+1 guests. Get in touch!",
+    "ogLocale": "en_GB",
+    "jsonLdDescription": "Newly renovated, modern apartment in downtown Debrecen with a separate bedroom and living room, for up to 4+1 guests."
+  },
+  "ui": {
+    "skip": "Skip to content",
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu",
+    "mainNav": "Main menu",
+    "langLabel": "Choose language",
+    "langHu": "Magyar",
+    "langEn": "English",
+    "logoAlt": "Blaha Residence logo",
+    "footerNav": "Quick links",
+    "backToTop": "Back to top",
+    "close": "Close",
+    "prev": "Previous image",
+    "next": "Next image"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "The apartment",
+    "gallery": "Gallery",
+    "amenities": "Amenities",
+    "rules": "House rules",
+    "location": "Location",
+    "contact": "Contact",
+    "cta": "Book / Enquire"
+  },
+  "hero": {
+    "eyebrow": "Downtown Debrecen",
+    "title": "Blaha Residence",
+    "tagline": "A modern home in the heart of Debrecen",
+    "text": "A newly renovated, air-conditioned apartment with a balcony for up to 4+1 guests – a lovely place to come back to after a day exploring the city.",
+    "cta1": "See the apartment",
+    "cta2": "Contact / Book",
+    "chips": [
+      "Up to 4+1 guests",
+      "Air conditioning",
+      "Fast Wi-Fi",
+      "Balcony"
+    ],
+    "imgAlt": "Bright, modern living room with a grey sofa, wall-mounted TV, deep green curtains and gold details"
+  },
+  "about": {
+    "eyebrow": "The apartment",
+    "title": "A comfortable apartment in downtown Debrecen",
+    "lead": "Our newly renovated, modern and welcoming apartment is a great choice for couples, families, groups of friends and business travellers alike.",
+    "p1": "We designed it so that coming back after a day out in the city feels calm and easy. It was important to us that it be more than just a place to sleep – somewhere you can genuinely feel at home.",
+    "p2": "It has a separate bedroom and a living room, and thanks to the fully equipped kitchen you can settle in comfortably even for a longer stay.",
+    "badge": "Newly renovated",
+    "imgAlt": "A family setting the table for dinner in the bright kitchen with gold and green accents",
+    "stats": [
+      {
+        "n": "4+1",
+        "l": "guests"
+      },
+      {
+        "n": "1",
+        "l": "separate bedroom"
+      },
+      {
+        "n": "1",
+        "l": "living room"
+      },
+      {
+        "n": "15:00",
+        "l": "check-in from"
+      }
+    ],
+    "idealTitle": "Perfect for",
+    "ideal": [
+      "city sightseeing",
+      "weekend getaways",
+      "family holidays",
+      "romantic breaks",
+      "business trips",
+      "short or longer stays"
+    ]
+  },
+  "why": {
+    "eyebrow": "Why us?",
+    "title": "Why choose this apartment?",
+    "intro": "Comfort, a central location and everything you need for a relaxed stay in Debrecen.",
+    "items": [
+      {
+        "icon": "pin",
+        "title": "Downtown location",
+        "text": "Restaurants, cafés, shops and popular city sights are just a few minutes away on foot."
+      },
+      {
+        "icon": "sparkles",
+        "title": "Newly renovated and modern",
+        "text": "Bright, uncluttered spaces with gold and green accents – and a genuinely homely feel."
+      },
+      {
+        "icon": "utensils",
+        "title": "Fully equipped kitchen",
+        "text": "With a washing machine and dishwasher too, so you can settle in comfortably for several days."
+      },
+      {
+        "icon": "sun",
+        "title": "Cosy balcony",
+        "text": "Enjoy a morning coffee on the balcony before heading out to explore."
+      },
+      {
+        "icon": "snow",
+        "title": "Air conditioning and fast Wi-Fi",
+        "text": "Air conditioning keeps the apartment pleasant on warmer days, and fast Wi-Fi keeps you connected."
+      },
+      {
+        "icon": "key",
+        "title": "Flexible, independent access",
+        "text": "Contactless check-in with a key box is available – or we are happy to welcome you in person if you prefer."
+      }
+    ]
+  },
+  "quote": {
+    "text": "A morning coffee on the balcony, a pleasant stroll through downtown Debrecen, dinner at a nearby restaurant – and then back to a calm, comfortable apartment.",
+    "imgAlt": "Sunlit living room in the Blaha Residence apartment"
+  },
+  "gallery": {
+    "eyebrow": "Gallery",
+    "title": "Take a look around",
+    "intro": "Click any photo to view it larger.",
+    "open": "Open image:",
+    "items": [
+      {
+        "cap": "Living room",
+        "alt": "Bright living room with a grey sofa, wall-mounted TV and deep green curtains"
+      },
+      {
+        "cap": "Kitchen and dining area",
+        "alt": "Modern white kitchen and an oval dining table with gold details"
+      },
+      {
+        "cap": "Living room – TV wall",
+        "alt": "Slatted wood TV wall, grey sofa and green throw in the living room"
+      },
+      {
+        "cap": "Bedroom",
+        "alt": "Bedroom with a bed, a desk and decorative pampas grass"
+      },
+      {
+        "cap": "Bathroom",
+        "alt": "Bathroom with a gold-framed shower, an oval washbasin and a round mirror"
+      },
+      {
+        "cap": "Bedroom with desk",
+        "alt": "Bedroom detail with a desk, a chair and beds"
+      },
+      {
+        "cap": "Living room",
+        "alt": "Living room with a sofa, coffee table and wall-mounted TV"
+      },
+      {
+        "cap": "Bathroom",
+        "alt": "Bathroom with a washing machine, a gold-detailed shower and a washbasin on a wooden countertop"
+      },
+      {
+        "cap": "Entrance and kitchen",
+        "alt": "Front door in the hallway, with the kitchen entrance beside it"
+      },
+      {
+        "cap": "Bedroom",
+        "alt": "Crisp white bed linen in the bedroom with a green decorative cushion"
+      },
+      {
+        "cap": "Bedroom",
+        "alt": "Bedroom with a desk and a daybed corner"
+      },
+      {
+        "cap": "Separate WC",
+        "alt": "Bright, tiled separate toilet room"
+      },
+      {
+        "cap": "Hallway",
+        "alt": "Bright hallway with a slatted wood wall and a mirror"
+      },
+      {
+        "cap": "Living room",
+        "alt": "Sunlit living room with a sofa and TV"
+      },
+      {
+        "cap": "Bedroom",
+        "alt": "Bedroom with the sliding door open onto the living room"
+      }
+    ]
+  },
+  "amenities": {
+    "eyebrow": "Amenities",
+    "title": "Amenities and services",
+    "intro": "We list only what is genuinely available to you.",
+    "items": [
+      {
+        "icon": "snow",
+        "label": "Air-conditioned apartment"
+      },
+      {
+        "icon": "wifi",
+        "label": "Fast Wi-Fi"
+      },
+      {
+        "icon": "utensils",
+        "label": "Fully equipped kitchen"
+      },
+      {
+        "icon": "washer",
+        "label": "Washing machine"
+      },
+      {
+        "icon": "dishwasher",
+        "label": "Dishwasher"
+      },
+      {
+        "icon": "shower",
+        "label": "Bathroom with shower"
+      },
+      {
+        "icon": "toilet",
+        "label": "Separate WC"
+      },
+      {
+        "icon": "sun",
+        "label": "Balcony"
+      },
+      {
+        "icon": "key",
+        "label": "Flexible, independent access"
+      },
+      {
+        "icon": "tv",
+        "label": "TV – 44-channel subscription"
+      },
+      {
+        "icon": "blinds",
+        "label": "Electric roller blinds with remote"
+      },
+      {
+        "icon": "bed",
+        "label": "Bed linen and towels"
+      }
+    ],
+    "onRequestTitle": "On request",
+    "onRequest": [
+      {
+        "icon": "baby",
+        "label": "Baby equipment: high chair, toilet seat reducer, step stool"
+      },
+      {
+        "icon": "umbrella",
+        "label": "Umbrella"
+      },
+      {
+        "icon": "sparkles",
+        "label": "Shoe-care kit"
+      },
+      {
+        "icon": "clock",
+        "label": "Earlier check-in or later check-out (for an extra fee, by prior arrangement)"
+      },
+      {
+        "icon": "sparkles",
+        "label": "Extra daily cleaning (for an extra fee)"
+      }
+    ]
+  },
+  "rules": {
+    "eyebrow": "House rules",
+    "title": "House rules",
+    "intro": "So that everyone can relax and misunderstandings are avoided, please read these carefully. By booking and paying, guests accept the house rules.",
+    "facts": [
+      {
+        "icon": "login",
+        "label": "Check-in",
+        "value": "15:00–22:00"
+      },
+      {
+        "icon": "logout",
+        "label": "Check-out",
+        "value": "by 10:00"
+      },
+      {
+        "icon": "nosmoke",
+        "label": "Smoking",
+        "value": "Not allowed"
+      },
+      {
+        "icon": "nopets",
+        "label": "Pets",
+        "value": "Not allowed"
+      }
+    ],
+    "items": [
+      {
+        "icon": "login",
+        "title": "Check-in and check-out",
+        "html": "<p>The apartment is available from 15:00 on the day of arrival until 10:00 on the day of departure. Arrival is possible between 15:00 and 22:00.</p><p>Earlier check-in or later check-out is possible for an extra fee, by prior arrangement.</p><p>No refund is given for early departure.</p>"
+      },
+      {
+        "icon": "file",
+        "title": "Registration and payment",
+        "html": "<p>On arrival or beforehand (online or in person), guests must provide their personal documents for registration (passport or ID card, proof of address) and pay any amount due on site. The apartment can only be occupied once the full price has been paid.</p><p>We are happy to welcome guests in person on request, but contactless arrival is also possible.</p>"
+      },
+      {
+        "icon": "key",
+        "title": "Keys and codes",
+        "html": "<p>On arrival, guests receive the code for the stairwell door and the key to the apartment door, which is kept in the key box next to the door in the stairwell.</p><p>On departure, please return the key to the key box and lock it with the code given on arrival. If a key is lost, please report it immediately – the cost of the key and of changing the lock is payable by the guest.</p>"
+      },
+      {
+        "icon": "nosmoke",
+        "title": "Smoking",
+        "html": "<p>Smoking is strictly prohibited in the building and in the apartment – including on the balcony.</p>"
+      },
+      {
+        "icon": "car",
+        "title": "Parking",
+        "html": "<p>The apartment has no private parking. In front of the building, parking is paid during the day (Mon–Fri 8:00–18:00, Sat 8:00–14:00) and limited to a maximum of 3 hours (red zone).</p><p>In nearby streets a day ticket can be bought (depending on the street, orange zone I or green zone II) – we are happy to help on request. <a href='https://netberlet.mininform.hu/debrecen_dvparking/napijegy/index?nj=1' target='_blank' rel='noopener noreferrer'>Buy a day ticket (Hungarian)</a></p>"
+      },
+      {
+        "icon": "usersx",
+        "title": "Guests and visitors",
+        "html": "<p>Only people whose ID has been shown to the host may stay in the apartment, and only up to the number of guests stated at booking. Please list every guest when booking, including children of any age.</p><p>The host may check, without prior notice, that the number of guests matches what was booked and paid for. Visitors are not allowed.</p>"
+      },
+      {
+        "icon": "quiet",
+        "title": "Quiet and consideration",
+        "html": "<p>Out of respect for the neighbours, please avoid noisy activities and move quietly in the stairwell.</p><p>Under the building’s own house rules, noisy activity from Monday to Saturday between 7:00 and 20:00, and all day on Sundays, counts as a nuisance. Breaching the building’s house rules may have legal consequences.</p>"
+      },
+      {
+        "icon": "nopets",
+        "title": "Pets",
+        "html": "<p>Pets are not allowed. Please take this rule seriously – some of our guests are allergic to animal hair.</p>"
+      },
+      {
+        "icon": "sparkles",
+        "title": "Cleaning",
+        "html": "<p>The accommodation fee paid on arrival includes final cleaning. On longer stays, the apartment is cleaned again and bed linen and towels are changed on day 7.</p><p>Extra daily cleaning is available for an additional fee – please let us know in advance.</p>"
+      },
+      {
+        "icon": "trash",
+        "title": "Waste",
+        "html": "<p>The waste bins are under the kitchen sink. Please separate your waste: bin 1 for general waste, bin 2 for paper, plastic and metal cans.</p><p>When leaving, please take the rubbish down to the bins in the stairwell (blue bin – general waste, yellow bin – recycling).</p>"
+      },
+      {
+        "icon": "home",
+        "title": "Order, meals and damage",
+        "html": "<p>Please keep the apartment tidy, look after the furnishings and do not take anything out of the apartment. Please eat in the kitchen rather than in the rooms, and keep it clean.</p><p>Any damage caused is to be paid for by the person responsible or their legal representative.</p>"
+      },
+      {
+        "icon": "tv",
+        "title": "TV, internet and blinds",
+        "html": "<p>The TV subscription includes 44 channels, and Wi-Fi is provided in the apartment.</p><p>The apartment has electric roller blinds, operated with the remote control found in each room: the up arrow raises them, the down arrow lowers them.</p>"
+      },
+      {
+        "icon": "alert",
+        "title": "Breach of the house rules",
+        "html": "<p>The owner has the right to cancel the stay if a guest does not follow the house rules. In that case, any remaining booking fee cannot be refunded.</p><p>By using the accommodation, guests confirm that they have read, understood and accepted the house rules.</p>"
+      }
+    ],
+    "footnote": "If you have any other question, request or problem, please feel free to get in touch."
+  },
+  "location": {
+    "eyebrow": "Location",
+    "title": "Close to everything, in downtown Debrecen",
+    "text": "The apartment is in downtown Debrecen, so many restaurants, cafés, shops and popular city sights are only a few minutes away on foot. It is a comfortable base for sightseeing, a weekend break or a few days in the city.",
+    "addressLabel": "Address",
+    "points": [
+      {
+        "icon": "walk",
+        "title": "Everything on foot",
+        "text": "Restaurants, cafés, shops and city sights are a few minutes’ walk away."
+      },
+      {
+        "icon": "car",
+        "title": "Parking",
+        "text": "There is no private parking; paid street parking and day tickets are available nearby (details in the house rules)."
+      },
+      {
+        "icon": "key",
+        "title": "Independent arrival",
+        "text": "Contactless check-in with a key box, or a personal welcome on request."
+      }
+    ],
+    "mapTitle": "Map showing the apartment’s location",
+    "route": "Get directions"
+  },
+  "cta": {
+    "title": "Relax with us in the heart of Debrecen – get in touch!",
+    "text": "We will gladly tell you which dates are available and give you information about prices – and we will help you with the booking too.",
+    "primary": "Book now",
+    "secondary": "Call us"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Enquire or book your stay",
+    "intro": "Feel free to write to us! We will let you know which dates are available and help you with the booking.",
+    "phoneLabel": "Phone",
+    "phoneNote": "Duty line, available 24/7",
+    "addressLabel": "Address",
+    "ntakLabel": "NTAK registration number",
+    "formTitle": "Booking",
+    "required": "required field",
+    "fields": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone number",
+      "arrival": "Arrival date",
+      "departure": "Departure date",
+      "guests": "Number of guests",
+      "message": "Message"
+    },
+    "placeholders": {
+      "name": "Your full name",
+      "email": "name@example.com",
+      "phone": "+44 …",
+      "message": "Tell us your question or any special requests"
+    },
+    "guestsHint": "Up to 4+1 guests",
+    "guestOptions": [
+      "1 guest",
+      "2 guests",
+      "3 guests",
+      "4 guests",
+      "5 guests (4+1)"
+    ],
+    "guestsPlaceholder": "Select…",
+    "consent": "I agree that my details may be used to respond to my enquiry.",
+    "consentPrivacy": "Privacy notice",
+    "submit": "Send booking request",
+    "sending": "Sending…",
+    "errors": {
+      "required": "Please fill in this field.",
+      "email": "Please enter a valid email address.",
+      "phone": "Please enter a valid phone number.",
+      "arrivalPast": "The arrival date cannot be in the past.",
+      "departure": "The departure date must be after the arrival date.",
+      "guests": "Please select the number of guests.",
+      "consent": "Please accept the data-handling consent to send your message.",
+      "summary": "Please correct the highlighted fields."
+    },
+    "success": "Thank you! We have received your booking request and will get back to you soon.",
+    "failure": "We could not send your message just now. Please try again, or call us:",
+    "notConfigured": "The online enquiry form is not available at the moment, so your message has not been sent. Please call us:"
+  },
+  "footer": {
+    "tagline": "A modern apartment in downtown Debrecen.",
+    "quick": "Quick links",
+    "contact": "Contact",
+    "social": "Follow us",
+    "privacy": "Privacy notice",
+    "rights": "All rights reserved."
+  }
+}

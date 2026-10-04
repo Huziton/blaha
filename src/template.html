@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="{{lang}}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{meta.title}}</title>
+<meta name="description" content="{{meta.description}}">
+<meta name="theme-color" content="#0E3B36">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Blaha Residence">
+<meta property="og:title" content="{{meta.title}}">
+<meta property="og:description" content="{{meta.description}}">
+<meta property="og:locale" content="{{meta.ogLocale}}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{meta.title}}">
+<meta name="twitter:description" content="{{meta.description}}">
+{{@head_links}}
+<link rel="icon" href="{{root}}favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="{{root}}apple-touch-icon.png">
+<link rel="preload" href="{{root}}assets/fonts/manrope-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{root}}assets/fonts/cormorant-garamond-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" href="{{root}}assets/img/hero-1600.webp" imagesrcset="{{root}}assets/img/hero-800.webp 800w, {{root}}assets/img/hero-1600.webp 1600w, {{root}}assets/img/hero-2560.webp 2560w" imagesizes="100vw" fetchpriority="high">
+<link rel="stylesheet" href="{{root}}assets/css/styles.css">
+<script>document.documentElement.classList.add('js');</script>
+<script type="application/ld+json">{{@jsonld}}</script>
+</head>
+<body>
+{{@icons}}
+<a class="skip-link" href="#main">{{ui.skip}}</a>
+
+<header class="site-header" id="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="#home" aria-label="Blaha Residence – {{nav.home}}">
+      <img src="{{root}}assets/img/monogram-gold.png" width="256" height="256" alt="" class="brand-mark">
+      <span class="brand-text"><span class="brand-name">Blaha</span><span class="brand-sub">Residence</span></span>
+    </a>
+
+    <nav class="main-nav" id="main-nav" aria-label="{{ui.mainNav}}">
+      <ul>{{@nav_links}}</ul>
+      <a class="btn btn-gold nav-cta-mobile" href="#contact">{{nav.cta}}</a>
+    </nav>
+
+    <div class="header-tools">
+      <div class="lang-switch" role="group" aria-label="{{ui.langLabel}}">
+        <a href="{{hu_href}}" lang="hu" hreflang="hu" data-lang="hu" {{lang_hu_current}} title="{{ui.langHu}}">HU</a>
+        <a href="{{en_href}}" lang="en" hreflang="en" data-lang="en" {{lang_en_current}} title="{{ui.langEn}}">EN</a>
+      </div>
+      <a class="btn btn-gold btn-sm header-cta" href="#contact">{{nav.cta}}</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" data-open="{{ui.menuOpen}}" data-close="{{ui.menuClose}}" aria-label="{{ui.menuOpen}}">
+        <span class="menu-ico menu-ico-open">{{@icon_menu}}</span><span class="menu-ico menu-ico-close">{{@icon_close}}</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- HERO -->
+<section class="hero" id="home" aria-labelledby="hero-title">
+  <img class="hero-img" src="{{root}}assets/img/hero-1600.webp"
+       srcset="{{root}}assets/img/hero-800.webp 800w, {{root}}assets/img/hero-1600.webp 1600w, {{root}}assets/img/hero-2560.webp 2560w"
+       sizes="100vw" width="2560" height="1440" alt="{{hero.imgAlt}}" fetchpriority="high" decoding="async">
+  <div class="hero-shade" aria-hidden="true"></div>
+  <div class="container hero-inner">
+    <p class="eyebrow eyebrow-light hero-a1">{{hero.eyebrow}}</p>
+    <h1 id="hero-title" class="hero-a2"><span class="hero-title">{{hero.title}}</span><span class="hero-tagline">{{hero.tagline}}</span></h1>
+    <p class="hero-text hero-a3">{{hero.text}}</p>
+    <div class="hero-actions hero-a4">
+      <a class="btn btn-gold" href="#gallery">{{hero.cta1}}</a>
+      <a class="btn btn-ghost" href="#contact">{{hero.cta2}}</a>
+    </div>
+    <ul class="hero-chips hero-a5">{{@hero_chips}}</ul>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section" id="about" aria-labelledby="about-title">
+  <div class="container about-grid">
+    <div class="about-text">
+      <p class="eyebrow reveal">{{about.eyebrow}}</p>
+      <h2 id="about-title" class="reveal">{{about.title}}</h2>
+      <p class="lead reveal">{{about.lead}}</p>
+      <p class="reveal">{{about.p1}}</p>
+      <p class="reveal">{{about.p2}}</p>
+      <h3 class="ideal-title reveal">{{about.idealTitle}}</h3>
+      <ul class="tags reveal">{{@ideal}}</ul>
+    </div>
+    <figure class="about-photo reveal">
+      <div class="photo-frame">
+        <img src="{{root}}assets/img/csalad-konyha-1200.webp" srcset="{{root}}assets/img/csalad-konyha-700.webp 700w, {{root}}assets/img/csalad-konyha-1200.webp 1200w" sizes="(min-width: 960px) 540px, 92vw" width="1200" height="675" alt="{{about.imgAlt}}" loading="lazy" decoding="async">
+      </div>
+    </figure>
+  </div>
+</section>
+
+<!-- WHY -->
+<section class="section section-tint" id="why" aria-labelledby="why-title">
+  <div class="container">
+    <header class="section-head center">
+      <p class="eyebrow reveal">{{why.eyebrow}}</p>
+      <h2 id="why-title" class="reveal">{{why.title}}</h2>
+      <p class="section-intro reveal">{{why.intro}}</p>
+    </header>
+    <div class="cards">{{@why_cards}}</div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="section" id="gallery" aria-labelledby="gallery-title">
+  <div class="container">
+    <header class="section-head center">
+      <p class="eyebrow reveal">{{gallery.eyebrow}}</p>
+      <h2 id="gallery-title" class="reveal">{{gallery.title}}</h2>
+      <p class="section-intro reveal">{{gallery.intro}}</p>
+    </header>
+    <ul class="gallery" id="gallery-grid">{{@gallery}}</ul>
+  </div>
+</section>
+
+<!-- AMENITIES -->
+<section class="section section-dark" id="amenities" aria-labelledby="amenities-title">
+  <div class="container">
+    <header class="section-head center">
+      <p class="eyebrow eyebrow-light reveal">{{amenities.eyebrow}}</p>
+      <h2 id="amenities-title" class="reveal">{{amenities.title}}</h2>
+      <p class="section-intro reveal">{{amenities.intro}}</p>
+    </header>
+    <ul class="amenity-grid">{{@amenities}}</ul>
+    <div class="on-request reveal">
+      <h3>{{amenities.onRequestTitle}}</h3>
+      <ul>{{@onrequest}}</ul>
+    </div>
+  </div>
+</section>
+
+<!-- HOUSE RULES -->
+<section class="section" id="rules" aria-labelledby="rules-title">
+  <div class="container">
+    <header class="section-head center">
+      <p class="eyebrow reveal">{{rules.eyebrow}}</p>
+      <h2 id="rules-title" class="reveal">{{rules.title}}</h2>
+      <p class="section-intro reveal">{{rules.intro}}</p>
+    </header>
+    <ul class="facts reveal">{{@rule_facts}}</ul>
+    <div class="rules-list">{{@rule_items}}</div>
+    <p class="rules-foot reveal">{{rules.footnote}}</p>
+  </div>
+</section>
+
+<!-- LOCATION -->
+<section class="section section-tint" id="location" aria-labelledby="location-title">
+  <div class="container location-grid">
+    <div class="location-text">
+      <p class="eyebrow reveal">{{location.eyebrow}}</p>
+      <h2 id="location-title" class="reveal">{{location.title}}</h2>
+      <p class="reveal">{{location.text}}</p>
+      <address class="addr reveal">
+        <span class="am-icon">{{@icon_pin}}</span>
+        <span><strong>{{location.addressLabel}}</strong><br>{{address_line}}</span>
+      </address>
+      <ul class="points reveal">{{@loc_points}}</ul>
+    </div>
+    <div class="map-card reveal">
+      <iframe title="{{location.mapTitle}}" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps?q={{map_query}}&amp;output=embed&amp;hl={{lang}}"></iframe>
+      <a class="btn btn-green btn-sm map-route" href="https://www.google.com/maps/dir/?api=1&amp;destination={{map_query}}" target="_blank" rel="noopener noreferrer">{{location.route}} {{@icon_route}}</a>
+    </div>
+  </div>
+</section>
+
+<!-- CLOSING CTA -->
+<section class="cta-band" aria-labelledby="cta-title">
+  <img src="{{root}}assets/img/csalad-haloszoba-1200.webp" srcset="{{root}}assets/img/csalad-haloszoba-700.webp 700w, {{root}}assets/img/csalad-haloszoba-1200.webp 1200w, {{root}}assets/img/csalad-haloszoba-2000.webp 1672w" sizes="100vw" width="1672" height="940" alt="" loading="lazy" decoding="async">
+  <div class="cta-shade" aria-hidden="true"></div>
+  <div class="container cta-inner">
+    <h2 id="cta-title" class="reveal">{{cta.title}}</h2>
+    <p class="reveal">{{cta.text}}</p>
+    <div class="hero-actions reveal">
+      <a class="btn btn-gold" href="#contact">{{cta.primary}}</a>
+      <a class="btn btn-ghost" href="tel:{{phone_tel}}">{{cta.secondary}}: {{phone_display}}</a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section" id="contact" aria-labelledby="contact-title">
+  <div class="container">
+    <header class="section-head center">
+      <p class="eyebrow reveal">{{contact.eyebrow}}</p>
+      <h2 id="contact-title" class="reveal">{{contact.title}}</h2>
+      <p class="section-intro reveal">{{contact.intro}}</p>
+    </header>
+
+    <div class="contact-grid">
+      <aside class="contact-card reveal" aria-label="{{contact.eyebrow}}">
+        <img src="{{root}}assets/img/monogram-gold.png" width="256" height="256" alt="" class="contact-mark">
+        <ul class="contact-list">
+          <li>
+            <span class="am-icon">{{@icon_phone}}</span>
+            <div><span class="cl-label">{{contact.phoneLabel}}</span><a class="cl-value" href="tel:{{phone_tel}}">{{phone_display}}</a><span class="cl-note">{{contact.phoneNote}}</span></div>
+          </li>
+          <li>
+            <span class="am-icon">{{@icon_pin}}</span>
+            <div><span class="cl-label">{{contact.addressLabel}}</span><span class="cl-value">{{address_line}}</span></div>
+          </li>
+        </ul>
+        {{@contact_social}}
+        <p class="ntak">{{contact.ntakLabel}}: <strong>{{ntak}}</strong></p>
+      </aside>
+
+      <div class="form-card reveal">
+        <h3>{{contact.formTitle}}</h3>
+        <form id="contact-form" novalidate data-endpoint="{{form_endpoint}}" data-lang="{{lang}}">
+          <p class="req-note"><span aria-hidden="true">*</span> {{contact.required}}</p>
+          <div class="form-grid">
+            <div class="field">
+              <label for="f-name">{{contact.fields.name}} <span class="req" aria-hidden="true">*</span></label>
+              <input id="f-name" name="name" type="text" autocomplete="name" required placeholder="{{contact.placeholders.name}}" aria-describedby="err-name">
+              <p class="field-error" id="err-name" hidden></p>
+            </div>
+            <div class="field">
+              <label for="f-email">{{contact.fields.email}} <span class="req" aria-hidden="true">*</span></label>
+              <input id="f-email" name="email" type="email" autocomplete="email" inputmode="email" required placeholder="{{contact.placeholders.email}}" aria-describedby="err-email">
+              <p class="field-error" id="err-email" hidden></p>
+            </div>
+            <div class="field">
+              <label for="f-phone">{{contact.fields.phone}}</label>
+              <input id="f-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="{{contact.placeholders.phone}}" aria-describedby="err-phone">
+              <p class="field-error" id="err-phone" hidden></p>
+            </div>
+            <div class="field">
+              <label for="f-guests">{{contact.fields.guests}} <span class="req" aria-hidden="true">*</span></label>
+              <select id="f-guests" name="guests" required aria-describedby="hint-guests err-guests">{{@guest_options}}</select>
+              <p class="hint" id="hint-guests">{{contact.guestsHint}}</p>
+              <p class="field-error" id="err-guests" hidden></p>
+            </div>
+            <div class="field">
+              <label for="f-arrival">{{contact.fields.arrival}} <span class="req" aria-hidden="true">*</span></label>
+              <input id="f-arrival" name="arrival" type="date" required aria-describedby="err-arrival">
+              <p class="field-error" id="err-arrival" hidden></p>
+            </div>
+            <div class="field">
+              <label for="f-departure">{{contact.fields.departure}} <span class="req" aria-hidden="true">*</span></label>
+              <input id="f-departure" name="departure" type="date" required aria-describedby="err-departure">
+              <p class="field-error" id="err-departure" hidden></p>
+            </div>
+            <div class="field field-wide">
+              <label for="f-message">{{contact.fields.message}}</label>
+              <textarea id="f-message" name="message" rows="4" placeholder="{{contact.placeholders.message}}"></textarea>
+            </div>
+            <div class="field field-wide hp" aria-hidden="true">
+              <label for="f-website">Website</label>
+              <input id="f-website" name="website" type="text" tabindex="-1" autocomplete="off">
+            </div>
+            <div class="field field-wide consent">
+              <label class="check" for="f-consent">
+                <input id="f-consent" name="consent" type="checkbox" required aria-describedby="err-consent">
+                <span>{{contact.consent}}{{@privacy_consent}}</span>
+              </label>
+              <p class="field-error" id="err-consent" hidden></p>
+            </div>
+          </div>
+          <button class="btn btn-gold btn-block" type="submit" id="form-submit">{{contact.submit}}</button>
+          <div class="form-status" id="form-status" role="status" aria-live="polite" tabindex="-1" hidden></div>
+        </form>
+        <script type="application/json" id="form-i18n">{{@form_i18n}}</script>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container foot-grid">
+    <div class="foot-brand">
+      <a class="brand brand-foot" href="#home" aria-label="Blaha Residence – {{ui.backToTop}}">
+        <img src="{{root}}assets/img/logo-gold.png" width="341" height="294" alt="{{ui.logoAlt}}" loading="lazy">
+      </a>
+      <p>{{footer.tagline}}</p>
+    </div>
+    <div class="foot-col">
+      <h2 class="foot-h">{{footer.quick}}</h2>
+      <ul>{{@footer_links}}</ul>
+    </div>
+    <div class="foot-col">
+      <h2 class="foot-h">{{footer.contact}}</h2>
+      <ul class="foot-contact">
+        <li>{{@icon_phone}}<a href="tel:{{phone_tel}}">{{phone_display}}</a></li>
+        <li>{{@icon_pin}}<span>{{address_line}}</span></li>
+      </ul>
+    </div>
+    {{@footer_social}}
+  </div>
+  <div class="container foot-bottom">
+    <p>© {{year}} Blaha Residence. {{footer.rights}} · NTAK: {{ntak}}</p>
+    <p class="foot-privacy">{{@privacy_footer}}</p>
+  </div>
+</footer>
+
+<!-- LIGHTBOX -->
+<dialog class="lightbox" id="lightbox" aria-label="{{gallery.title}}">
+  <div class="lb-stage">
+    <img id="lb-img" alt="" decoding="async">
+  </div>
+  <p class="lb-caption"><span id="lb-cap"></span> <span class="lb-count" id="lb-count"></span></p>
+  <button class="lb-btn lb-close" type="button" data-lb="close" aria-label="{{ui.close}}">{{@icon_close}}</button>
+  <button class="lb-btn lb-prev" type="button" data-lb="prev" aria-label="{{ui.prev}}">{{@icon_prev}}</button>
+  <button class="lb-btn lb-next" type="button" data-lb="next" aria-label="{{ui.next}}">{{@icon_next}}</button>
+</dialog>
+
+<script src="{{root}}assets/js/main.js" defer></script>
+</body>
+</html>
