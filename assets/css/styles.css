@@ -319,7 +319,7 @@ h3{font-size:1.5rem}
 .map-card{position:relative;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);border:1px solid var(--line);background:var(--green-100);min-height:420px}
 /* a Google-térkép saját címkártyáját (bal felső sarok) kicsúsztatjuk a látható részből */
 .map-card iframe{position:absolute;left:0;right:0;bottom:0;top:-104px;width:100%;height:calc(100% + 104px);border:0;filter:saturate(.9)}
-.map-route{position:absolute;left:16px;bottom:16px;box-shadow:var(--shadow)}
+.map-route{position:absolute;left:88px;bottom:16px;box-shadow:var(--shadow)}
 @media (min-width:960px){.location-grid{grid-template-columns:1fr 1.05fr;gap:64px;align-items:stretch}.map-card{min-height:520px}}
 
 /* ---- CTA band ----------------------------------------------------------- */
