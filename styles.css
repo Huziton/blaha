@@ -102,7 +102,7 @@ h3{font-size:1.5rem}
 
 /* ---- Header ------------------------------------------------------------- */
 .site-header{position:fixed;inset:0 0 auto 0;z-index:100;height:var(--header-h);color:#fff;transition:background-color .3s ease,box-shadow .3s ease,color .3s ease}
-.site-header::before{content:"";position:absolute;inset:0;background:linear-gradient(rgba(7,31,28,.55),rgba(7,31,28,0));pointer-events:none;transition:opacity .3s}
+.site-header::before{content:"";position:absolute;left:0;right:0;top:0;height:170%;background:linear-gradient(rgba(7,31,28,.88) 0%,rgba(7,31,28,.7) 45%,rgba(7,31,28,0) 100%);pointer-events:none;transition:opacity .3s}
 .site-header.is-solid{background:rgba(255,255,255,.94);backdrop-filter:saturate(1.4) blur(14px);-webkit-backdrop-filter:saturate(1.4) blur(14px);box-shadow:0 1px 0 var(--line),0 8px 30px -20px rgba(10,43,39,.4);color:var(--green-800)}
 .site-header.is-solid::before{opacity:0}
 .site-header .container{max-width:1360px}
@@ -201,11 +201,10 @@ h3{font-size:1.5rem}
 .tags li{padding:8px 16px;border-radius:999px;background:var(--green-100);color:var(--green-800);font-size:.9rem;font-weight:600}
 .about-photo{position:relative;margin-inline:auto;width:100%}
 .photo-frame{position:relative;border-radius:var(--radius);overflow:visible}
-.photo-frame::before{content:"";position:absolute;inset:18px -18px -18px 18px;border:1.5px solid var(--gold);border-radius:var(--radius);z-index:0}
 .photo-frame img{position:relative;z-index:1;width:100%;aspect-ratio:4/3.3;object-fit:cover;border-radius:var(--radius);box-shadow:var(--shadow)}
 .photo-badge{position:absolute;z-index:2;left:-14px;bottom:28px;padding:12px 22px;background:var(--green-800);color:var(--gold-light);font-family:var(--font-serif);font-size:1.25rem;font-weight:600;border-radius:12px;box-shadow:var(--shadow)}
 @media (min-width:960px){.about-grid{grid-template-columns:1.05fr .95fr;gap:80px}}
-@media (max-width:959px){.photo-frame::before{inset:12px -8px -12px 8px}.photo-badge{left:10px}}
+@media (max-width:959px){.photo-badge{left:10px}}
 
 .stats{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:clamp(48px,7vw,80px)}
 .stats li{display:flex;flex-direction:column;align-items:center;text-align:center;padding:26px 14px;border:1px solid var(--line);border-radius:var(--radius);background:var(--cream)}
